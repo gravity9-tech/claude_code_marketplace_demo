@@ -16,7 +16,7 @@ Organisation-level plugins for Claude Code.
 From GitHub:
 
 ```
-/plugin marketplace add <owner>/claude-code-marketplace-demo
+/plugin marketplace add gravity9-tech/claude-code-marketplace-demo
 ```
 
 From a local clone:
@@ -28,7 +28,7 @@ From a local clone:
 Or point directly to the `marketplace.json` file:
 
 ```
-/plugin marketplace add ./path/to/marketplace.json
+/plugin marketplace add https://github.com/gravity9-tech/claude_code_marketplace_demo/blob/main/marketplace.json
 ```
 
 ### Install a Plugin
