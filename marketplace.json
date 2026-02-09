@@ -1,0 +1,62 @@
+{
+  "name": "Pandora Marketplace",
+  "description": "Organisation-level plugins for Pandora development teams",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "feature-lifecycle",
+      "version": "1.0.0",
+      "description": "End-to-end feature development workflow with Jira planning, TDD implementation, code review, and automated merge",
+      "author": "Pandora Team",
+      "path": "feature-lifecycle",
+      "components": {
+        "skills": [
+          "create-ticket",
+          "expand-ticket",
+          "tdd-workflow",
+          "create-branch",
+          "commit-and-merge"
+        ],
+        "agents": [
+          "planner",
+          "tdd-implementer",
+          "code-reviewer"
+        ],
+        "commands": [
+          "implement-feature"
+        ],
+        "mcp": [
+          "atlassian"
+        ]
+      }
+    },
+    {
+      "name": "deepwiki",
+      "version": "1.0.0",
+      "description": "Generate comprehensive documentation from codebases with ASCII diagrams, evidence-backed content, and automatic Claude Code skill syncing",
+      "author": "Pandora Team",
+      "path": "deepwiki",
+      "components": {
+        "skills": [
+          "generating-ascii-diagrams",
+          "evidence-citation",
+          "codebase-analysis-patterns",
+          "documentation-structure-patterns",
+          "documentation-quality-checklist",
+          "planner-output-templates",
+          "doc-generator-output-templates"
+        ],
+        "agents": [
+          "deepwiki-planner",
+          "deepwiki-doc-generator",
+          "deepwiki-skill-generator"
+        ],
+        "commands": [
+          "init",
+          "sync",
+          "skills"
+        ]
+      }
+    }
+  ]
+}

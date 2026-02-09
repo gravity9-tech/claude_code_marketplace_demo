@@ -1,0 +1,27 @@
+{
+  "name": "deepwiki",
+  "version": "1.0.0",
+  "description": "Generate comprehensive documentation from codebases with ASCII diagrams, evidence-backed content, and automatic Claude Code skill syncing",
+  "author": "Loghman",
+  "components": {
+    "skills": [
+      "generating-ascii-diagrams",
+      "evidence-citation",
+      "codebase-analysis-patterns",
+      "documentation-structure-patterns",
+      "documentation-quality-checklist",
+      "planner-output-templates",
+      "doc-generator-output-templates"
+    ],
+    "agents": [
+      "deepwiki-planner",
+      "deepwiki-doc-generator",
+      "deepwiki-skill-generator"
+    ],
+    "commands": [
+      "init",
+      "sync",
+      "skills"
+    ]
+  }
+}
