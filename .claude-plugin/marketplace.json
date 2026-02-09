@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "description": "End-to-end feature development workflow with Jira planning, TDD implementation, code review, and automated merge",
       "author": "Pandora Team",
-      "path": "feature-lifecycle",
+      "path": "plugins/feature-lifecycle",
       "components": {
         "skills": [
           "create-ticket",
@@ -35,7 +35,7 @@
       "version": "1.0.0",
       "description": "Generate comprehensive documentation from codebases with ASCII diagrams, evidence-backed content, and automatic Claude Code skill syncing",
       "author": "Pandora Team",
-      "path": "deepwiki",
+      "path": "plugins/deepwiki",
       "components": {
         "skills": [
           "generating-ascii-diagrams",
