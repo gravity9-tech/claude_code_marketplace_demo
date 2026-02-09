@@ -1,0 +1,5 @@
+{
+  "name": "feature-lifecycle",
+  "description": "End-to-end feature development workflow with Jira planning, TDD implementation, code review, and automated merge",
+  "version": "1.0.0"
+}

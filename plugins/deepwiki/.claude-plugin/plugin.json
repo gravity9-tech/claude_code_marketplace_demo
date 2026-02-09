@@ -1,0 +1,5 @@
+{
+  "name": "deepwiki",
+  "description": "Generate comprehensive documentation from codebases with ASCII diagrams, evidence-backed content, and automatic Claude Code skill syncing",
+  "version": "1.0.0"
+}

@@ -1,62 +1,43 @@
 {
-  "name": "Pandora Marketplace",
-  "description": "Organisation-level plugins for Pandora development teams",
-  "version": "1.0.0",
+  "name": "pandora-marketplace",
+  "owner": {
+    "name": "Pandora Team"
+  },
+  "metadata": {
+    "description": "Organisation-level plugins for Pandora development teams",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "feature-lifecycle",
+      "source": "./plugins/feature-lifecycle",
       "version": "1.0.0",
       "description": "End-to-end feature development workflow with Jira planning, TDD implementation, code review, and automated merge",
-      "author": "Pandora Team",
-      "path": "plugins/feature-lifecycle",
-      "components": {
-        "skills": [
-          "create-ticket",
-          "expand-ticket",
-          "tdd-workflow",
-          "create-branch",
-          "commit-and-merge"
-        ],
-        "agents": [
-          "planner",
-          "tdd-implementer",
-          "code-reviewer"
-        ],
-        "commands": [
-          "implement-feature"
-        ],
-        "mcp": [
-          "atlassian"
-        ]
-      }
+      "author": {
+        "name": "Pandora Team"
+      },
+      "commands": "./commands/",
+      "agents": [
+        "./agents/planner.md",
+        "./agents/tdd-implementer.md",
+        "./agents/code-reviewer.md"
+      ],
+      "mcpServers": "./mcp/atlassian.json"
     },
     {
       "name": "deepwiki",
+      "source": "./plugins/deepwiki",
       "version": "1.0.0",
       "description": "Generate comprehensive documentation from codebases with ASCII diagrams, evidence-backed content, and automatic Claude Code skill syncing",
-      "author": "Pandora Team",
-      "path": "plugins/deepwiki",
-      "components": {
-        "skills": [
-          "generating-ascii-diagrams",
-          "evidence-citation",
-          "codebase-analysis-patterns",
-          "documentation-structure-patterns",
-          "documentation-quality-checklist",
-          "planner-output-templates",
-          "doc-generator-output-templates"
-        ],
-        "agents": [
-          "deepwiki-planner",
-          "deepwiki-doc-generator",
-          "deepwiki-skill-generator"
-        ],
-        "commands": [
-          "init",
-          "sync",
-          "skills"
-        ]
-      }
+      "author": {
+        "name": "Pandora Team"
+      },
+      "commands": "./commands/",
+      "agents": [
+        "./agents/deepwiki-planner.md",
+        "./agents/deepwiki-doc-generator.md",
+        "./agents/deepwiki-skill-generator.md"
+      ]
     }
   ]
 }

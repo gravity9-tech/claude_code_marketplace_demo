@@ -15,22 +15,23 @@ Organisation-level plugins for Claude Code.
 
 From GitHub:
 
+Install from the repo:
+
+```
+/plugin marketplace add https://github.com/gravity9-tech/claude_code_marketplace_demo.git
+```
+
+Or using the GitHub shortcut syntax:
 ```
 /plugin marketplace add gravity9-tech/claude-code-marketplace-demo
 ```
 
 > **Note:** This method clones via SSH. You need SSH keys configured for GitHub. If you get a `Permission denied (publickey)` error, either [set up SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) or use the HTTPS URL method below instead.
 
-From a local clone:
+or from a local clone:
 
 ```
 /plugin marketplace add ./path/to/claude-code-marketplace-demo
-```
-
-Or point directly to the `marketplace.json` file:
-
-```
-/plugin marketplace add https://github.com/gravity9-tech/claude_code_marketplace_demo/blob/main/.claude-plugin/marketplace.json
 ```
 
 ### Install a Plugin
